@@ -16,8 +16,8 @@ data provided by [Motivate](https://www.motivateco.com)
 
 
 ### Credits
-With the instruction of Udacity:
-(https://www.udacity.com/course/version-control-with-git--ud123)
+With the instruction from Udacity:        
+https://www.udacity.com/course/version-control-with-git--ud123
 
 ### License
 The content of this repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
