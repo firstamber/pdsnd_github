@@ -6,6 +6,9 @@ Created in March 5,2023
 ### Description
  Explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.
 
+### Software used
+Python (3.11.1)
+
 ### Files used
 Randomly selected data for the first six months of 2017 are provided for:
 * Chicago
