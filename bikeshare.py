@@ -144,10 +144,10 @@ def user_stats(df):
     start_time = time.time()
     try:
     # TO DO: Display counts of user types
-        print("counts of user types {}".format (df['User Type'].value_counts()))
+        print("counts of user types {}".format(df['User Type'].value_counts()))
 
     # TO DO: Display counts of gender
-        print("counts of gender",df['Gender'].value_counts())
+        print("counts of gender {}".format(df['Gender'].value_counts()))
 
     # TO DO: Display earliest, most recent, and most common year of birth
         print("earliest year of birth {}, most recent year of birth {}, and most common year of birth {}". format (df['Birth Year'].min(),df['Birth Year'].max(),df['Birth Year'].mode()[0]))
