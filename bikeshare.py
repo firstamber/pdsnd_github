@@ -158,9 +158,13 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
+    """prompt the user if they want to see 5 lines of raw data,
+       Display that data if the answer is 'yes',
+       Continue iterating these prompts and displaying the next 5 lines of raw data at each iteration,
+       Stop the program when the user says 'no' or there is no more raw data to display."""
     view_data = input('\nWould you like to view 5 rows of individual trip data? enter yes or no\n')
     start_loc = 0
-    while view_data =='yes':
+    while view_data.lower()=='yes':
         print (df.iloc[start_loc:start_loc+5])
         start_loc+=5
         view_data = input("Do you wish to continue?:  ").lower()
